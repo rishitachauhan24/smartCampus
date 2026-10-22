@@ -1,0 +1,39 @@
+/* ================= STAFF ================= */
+
+.staff-issue-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.staff-action-box {
+  background: #f7f8fc;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 25px;
+}
+
+.staff-action-box h2 {
+  margin-bottom: 10px;
+}
+
+.staff-action-box p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.ai-result-item {
+  margin-top: 18px;
+}
+
+.ai-result-item strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.ai-result-item p {
+  margin: 0;
+}
