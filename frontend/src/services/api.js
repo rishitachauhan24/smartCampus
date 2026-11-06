@@ -26,7 +26,7 @@ export async function apiRequest(endpoint, options = {}) {
   } catch (error) {
     if (error instanceof TypeError) {
       throw new Error(
-        "Unable to connect to the server. Start the backend on http://localhost:5000 and try again.",
+        `Unable to connect to the server at ${API_URL}. Check that the backend is deployed and VITE_API_URL is configured correctly.`,
         { cause: error }
       );
     }
